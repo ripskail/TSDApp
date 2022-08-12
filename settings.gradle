@@ -1,0 +1,4 @@
+include ':barcode_scanner_library_v2.6.2.0-release'
+include ':app'
+include ':Scan-Pharm'
+rootProject.name='ScanKitDemo'

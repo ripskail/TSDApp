@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/agent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/introduction"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:paddingTop="25dp">
+
+        <Button
+            android:id="@+id/button_sb"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:onClick="Sborka"
+            android:text="Сборка"
+            android:textAllCaps="false"
+            android:textColor="@color/Text"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_local"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:background="@color/colorPrimary"
+            android:onClick="addProduct"
+            android:text="@string/add_product"
+            android:textAllCaps="false"
+            android:textColor="@color/Text"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_mesto"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:onClick="MestoX"
+            android:text="Изм М/Х"
+            android:textAllCaps="false"
+            android:textColor="@color/Text"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_s"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="#006200EE"
+            android:onClick="Settings"
+            android:text="Настройки"
+            android:textColor="#FFFFFF"
+            tools:visibility="gone" />
+
+        <Button
+            android:id="@+id/button_s2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:onClick="logoutUser"
+            android:text="Сменить пользователя"
+            android:textColor="@color/Text" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|end"
+            android:text="@string/ver"
+            android:textColor="@color/Text" />
+
+
+    </LinearLayout>
+</RelativeLayout>

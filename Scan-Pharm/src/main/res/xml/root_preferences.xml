@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory >
+
+        <EditTextPreference
+            app:key="signature"
+            app:title="@string/signature_title"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="192.168.146.188:12444">
+
+        </EditTextPreference>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

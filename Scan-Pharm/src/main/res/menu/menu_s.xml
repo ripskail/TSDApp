@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/glm"
+        android:onClick="main"
+        android:title="Накладные"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/down"
+        android:onClick="down"
+        android:title="Загрузить"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/send"
+        android:onClick="send"
+        android:title="Отправить"
+        android:visible="false"
+        app:showAsAction="never" />
+</menu>

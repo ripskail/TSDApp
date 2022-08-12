@@ -1,0 +1,42 @@
+<resources>
+    <string name="ver">Версия: 2.1</string>
+
+    <string name="app_name">*****</string>
+    <string name="title">Меню</string>
+    <string name="subject">_</string>
+    <string name="detail">_</string>
+    <string name="add_product">Поиск по штрих-коду</string>
+    <string name="scan_barcode">Сканировать</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="save">Save</string>
+    <string name="query_product">_</string>
+    <string name="please_take_picture">please take picture</string>
+    <string name="please_scan_barcode">please scan barcode</string>
+    <string name="title_activity_settings">******</string>
+    <string name="ip">*******</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header"></string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">IP server (******)</string>
+    <string name="reply_title">Default reply action</string>
+    <string name="title_activity_sbor">Sbor</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">_</string>
+    <string name="hello_second_fragment">_</string>
+
+
+    <string name="activity_intent_filter_action">android.intent.ACTION_DECODE_DATA</string>
+    <string name="datawedge_intent_key_source">android.intent.source</string>
+    <string name="datawedge_intent_key_label_type">symName</string>
+    <string name="datawedge_intent_key_data">barcode_string</string>
+    <string name="datawedge_intent_key_type_hon">codetype</string>
+
+</resources>

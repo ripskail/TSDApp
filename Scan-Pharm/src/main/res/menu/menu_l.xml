@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/glm"
+        android:onClick="main1"
+        android:title="Гл. меню"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/otp"
+        android:onClick="send"
+        android:title="Отправить"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/downl"
+        android:onClick="down1"
+        android:title="Загрузить"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cenc"
+        android:onClick="cenc1"
+        android:title="Отмена"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/clear"
+        android:onClick="claer1"
+        android:title="Очистить"
+        app:showAsAction="never" />
+</menu>
